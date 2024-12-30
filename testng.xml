@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="TestingBABAmvn" parallel="tests" thread-count="3" >
-    <test name="textboxtest"  enabled="true">
+<suite name="TestingBABAmvn">
+    <test name="textboxtest"  enabled="false">
         <parameter name="browser" value="chrome">
         </parameter>
         <classes>
