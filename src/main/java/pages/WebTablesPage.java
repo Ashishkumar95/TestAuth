@@ -58,6 +58,13 @@ public class WebTablesPage extends BaseLibrary {
             visiblewait(email, getReadData(0, i, 1));
             wait(submit);
         }
+
+
+        public void validate()
+        {
+  System.outprintln("asdfghjkl");
+        }
+        driver.switchTo().defaultContent();
        // driver.switchTo().defaultContent();
     }
     public void updatedetails()
@@ -70,6 +77,7 @@ public class WebTablesPage extends BaseLibrary {
             visiblewait(editemail, getReadData(1, i, 1));
             wait(updatebtn);
         }
+
     }
 
 }
