@@ -45,6 +45,11 @@ public class WebTablesPage extends BaseLibrary {
             visiblewait(email, getReadData(0, i, 1));
             wait(submit);
         }
+
+        public void validate()
+        {
+
+        }
         driver.switchTo().defaultContent();
     }
 }
